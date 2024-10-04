@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000261] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000329] (-) JobUnselected: {'identifier': 'bag_reading_cpp'}
+[0.000356] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.000386] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000410] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000476] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000499] (-) JobUnselected: {'identifier': 'imu_filter_pkg'}
+[0.000522] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.000545] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000569] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000591] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000612] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000643] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000672] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.000730] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000785] (py_launch_example) JobQueued: {'identifier': 'py_launch_example', 'dependencies': OrderedDict()}
+[0.000847] (py_launch_example) JobStarted: {'identifier': 'py_launch_example'}
+[0.099606] (-) TimerEvent: {}
+[0.199918] (-) TimerEvent: {}
+[0.300223] (-) TimerEvent: {}
+[0.400478] (-) TimerEvent: {}
+[0.500814] (-) TimerEvent: {}
+[0.601173] (-) TimerEvent: {}
+[0.701486] (-) TimerEvent: {}
+[0.801808] (-) TimerEvent: {}
+[0.902109] (-) TimerEvent: {}
+[1.002416] (-) TimerEvent: {}
+[1.076828] (py_launch_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_launch_example', 'build', '--build-base', '/home/eternal/ros2_ws/build/py_launch_example/build', 'install', '--record', '/home/eternal/ros2_ws/build/py_launch_example/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eternal/ros2_ws/src/py_launch_example', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'eternal', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/eternal/ros2_ws/install/tutorial_interfaces/lib:/home/eternal/ros2_ws/install/turtlesim/lib:/home/eternal/ros2_ws/install/polygon_plugins/lib:/home/eternal/ros2_ws/install/more_interfaces/lib:/home/eternal/ros2_ws/install/action_tutorials_cpp/lib:/home/eternal/ros2_ws/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/eternal', 'OLDPWD': '/home/eternal/ros2_ws/build', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'MANAGERPID': '2035', 'SYSTEMD_EXEC_PID': '2454', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10719', 'COLCON_PREFIX_PATH': '/home/eternal/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'eternal', 'JOURNAL_STREAM': '8:659', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eternal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/eternal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eternal-AORUS-15-BKF:@/tmp/.ICE-unix/2420,unix/eternal-AORUS-15-BKF:/tmp/.ICE-unix/2420', 'INVOCATION_ID': '19ec26dd8bf24a75899426ffe0a59909', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/eternal/ros2_ws/install/cpp_srvcli:/home/eternal/ros2_ws/install/cpp_pubsub:/home/eternal/ros2_ws/install/tutorial_interfaces:/home/eternal/ros2_ws/install/turtlesim:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/polygon_plugins:/home/eternal/ros2_ws/install/polygon_base:/home/eternal/ros2_ws/install/my_package:/home/eternal/ros2_ws/install/more_interfaces:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/home/eternal/ros2_ws/install/cpp_parameters:/home/eternal/ros2_ws/install/cpp_parameter_event_handler:/home/eternal/ros2_ws/install/bag_reading_cpp:/home/eternal/ros2_ws/install/action_tutorials_cpp:/home/eternal/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f364db98-f092-4e15-81fd-1b4dbb6f62f2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eternal/ros2_ws/build/py_launch_example', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eternal/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/eternal/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/eternal/ros2_ws/install/cpp_srvcli:/home/eternal/ros2_ws/install/cpp_pubsub:/home/eternal/ros2_ws/install/tutorial_interfaces:/home/eternal/ros2_ws/install/turtlesim:/home/eternal/ros2_ws/install/polygon_plugins:/home/eternal/ros2_ws/install/polygon_base:/home/eternal/ros2_ws/install/more_interfaces:/home/eternal/ros2_ws/install/cpp_parameter_event_handler:/home/eternal/ros2_ws/install/bag_reading_cpp:/home/eternal/ros2_ws/install/action_tutorials_cpp:/home/eternal/ros2_ws/install/action_tutorials_interfaces'}, 'shell': False}
+[1.102614] (-) TimerEvent: {}
+[1.202908] (-) TimerEvent: {}
+[1.303219] (-) TimerEvent: {}
+[1.403458] (-) TimerEvent: {}
+[1.503768] (-) TimerEvent: {}
+[1.604093] (-) TimerEvent: {}
+[1.609691] (py_launch_example) StdoutLine: {'line': b'running egg_info\n'}
+[1.648421] (py_launch_example) StdoutLine: {'line': b'writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO\n'}
+[1.679305] (py_launch_example) StdoutLine: {'line': b'writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt\n'}
+[1.704307] (-) TimerEvent: {}
+[1.804675] (-) TimerEvent: {}
+[1.832694] (py_launch_example) StdoutLine: {'line': b'writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt\n'}
+[1.863423] (py_launch_example) StdoutLine: {'line': b'writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt\n'}
+[1.904892] (-) TimerEvent: {}
+[1.931756] (py_launch_example) StderrLine: {'line': b"listing git files failed - pretending there aren't any\n"}
+[2.005109] (-) TimerEvent: {}
+[2.008545] (py_launch_example) StdoutLine: {'line': b"reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'\n"}
+[2.008756] (py_launch_example) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.009697] (py_launch_example) StdoutLine: {'line': b"writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'\n"}
+[2.010007] (py_launch_example) StdoutLine: {'line': b'running build\n'}
+[2.010063] (py_launch_example) StdoutLine: {'line': b'running build_py\n'}
+[2.010098] (py_launch_example) StdoutLine: {'line': b'running install\n'}
+[2.013580] (py_launch_example) StdoutLine: {'line': b'running install_lib\n'}
+[2.052792] (py_launch_example) StdoutLine: {'line': b'running install_data\n'}
+[2.052929] (py_launch_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.091686] (py_launch_example) StdoutLine: {'line': b"removing '/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.091787] (py_launch_example) StdoutLine: {'line': b'Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info\n'}
+[2.092076] (py_launch_example) StdoutLine: {'line': b'running install_scripts\n'}
+[2.105277] (-) TimerEvent: {}
+[2.165468] (py_launch_example) StdoutLine: {'line': b"writing list of installed files to '/home/eternal/ros2_ws/build/py_launch_example/install.log'\n"}
+[2.185693] (py_launch_example) CommandEnded: {'returncode': 0}
+[2.192397] (py_launch_example) JobEnded: {'identifier': 'py_launch_example', 'rc': 0}
+[2.192816] (-) EventReactorShutdown: {}

@@ -1,0 +1,49 @@
+[4.692s] Invoking command in '/home/eternal/ros2_ws/src/launch_tutorial': PYTHONPATH=/home/eternal/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/eternal/ros2_ws/build/launch_tutorial/build install --record /home/eternal/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[6.411s] running egg_info
+[6.411s] creating ../../build/launch_tutorial/launch_tutorial.egg-info
+[6.481s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[6.537s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[6.828s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[6.896s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[6.897s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[7.047s] listing git files failed - pretending there aren't any
+[7.184s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[7.184s] adding license file 'LICENSE'
+[7.185s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[7.185s] running build
+[7.185s] running build_py
+[7.185s] creating /home/eternal/ros2_ws/build/launch_tutorial/build
+[7.185s] creating /home/eternal/ros2_ws/build/launch_tutorial/build/lib
+[7.185s] creating /home/eternal/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial
+[7.185s] copying launch_tutorial/__init__.py -> /home/eternal/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial
+[7.185s] running install
+[7.188s] running install_lib
+[7.251s] creating /home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[7.251s] copying /home/eternal/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[7.251s] byte-compiling /home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial/__init__.py to __init__.cpython-310.pyc
+[7.251s] running install_data
+[7.251s] creating /home/eternal/ros2_ws/install/launch_tutorial/share/ament_index
+[7.251s] creating /home/eternal/ros2_ws/install/launch_tutorial/share/ament_index/resource_index
+[7.252s] creating /home/eternal/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[7.252s] copying resource/launch_tutorial -> /home/eternal/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[7.252s] copying package.xml -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial
+[7.252s] creating /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.252s] copying launch/example_substitutions.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.252s] copying launch/example_main.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.252s] copying launch/example_event_handlers.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.252s] copying launch/turtlesim_world_1.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.253s] copying launch/broadcaster_listener.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.253s] copying launch/turtlesim_rviz.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.254s] copying launch/turtlesim_world_3.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.254s] copying launch/turtlesim_world_2.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.254s] copying launch/fixed_broadcaster.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.256s] copying launch/launch_turtlesim.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.257s] copying launch/mimic.launch.py -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[7.257s] creating /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/config
+[7.258s] copying config/turtlesim.yaml -> /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/config
+[7.258s] creating /home/eternal/ros2_ws/install/launch_tutorial/share/launch_tutorial/rviz
+[7.262s] running install_egg_info
+[7.351s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[7.351s] running install_scripts
+[7.525s] writing list of installed files to '/home/eternal/ros2_ws/build/launch_tutorial/install.log'
+[7.581s] Invoked command in '/home/eternal/ros2_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/eternal/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/eternal/ros2_ws/build/launch_tutorial/build install --record /home/eternal/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data

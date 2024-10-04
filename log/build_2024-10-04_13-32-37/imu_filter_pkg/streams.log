@@ -1,0 +1,39 @@
+[5.241s] Invoking command in '/home/eternal/ros2_ws/src/imu_filter_pkg': PYTHONPATH=/home/eternal/ros2_ws/build/imu_filter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu_filter_pkg build --build-base /home/eternal/ros2_ws/build/imu_filter_pkg/build install --record /home/eternal/ros2_ws/build/imu_filter_pkg/install.log --single-version-externally-managed install_data
+[6.487s] running egg_info
+[6.488s] creating ../../build/imu_filter_pkg/imu_filter_pkg.egg-info
+[6.574s] writing ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/PKG-INFO
+[6.634s] writing dependency_links to ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/dependency_links.txt
+[6.812s] writing entry points to ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/entry_points.txt
+[6.931s] writing requirements to ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/requires.txt
+[7.004s] writing top-level names to ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/top_level.txt
+[7.004s] writing manifest file '../../build/imu_filter_pkg/imu_filter_pkg.egg-info/SOURCES.txt'
+[7.159s] listing git files failed - pretending there aren't any
+[7.290s] reading manifest file '../../build/imu_filter_pkg/imu_filter_pkg.egg-info/SOURCES.txt'
+[7.290s] adding license file 'LICENSE'
+[7.290s] writing manifest file '../../build/imu_filter_pkg/imu_filter_pkg.egg-info/SOURCES.txt'
+[7.290s] running build
+[7.291s] running build_py
+[7.291s] creating /home/eternal/ros2_ws/build/imu_filter_pkg/build
+[7.291s] creating /home/eternal/ros2_ws/build/imu_filter_pkg/build/lib
+[7.291s] creating /home/eternal/ros2_ws/build/imu_filter_pkg/build/lib/imu_filter_pkg
+[7.291s] copying imu_filter_pkg/__init__.py -> /home/eternal/ros2_ws/build/imu_filter_pkg/build/lib/imu_filter_pkg
+[7.291s] copying imu_filter_pkg/imu_filter_node.py -> /home/eternal/ros2_ws/build/imu_filter_pkg/build/lib/imu_filter_pkg
+[7.291s] running install
+[7.298s] running install_lib
+[7.373s] creating /home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages/imu_filter_pkg
+[7.373s] copying /home/eternal/ros2_ws/build/imu_filter_pkg/build/lib/imu_filter_pkg/__init__.py -> /home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages/imu_filter_pkg
+[7.373s] copying /home/eternal/ros2_ws/build/imu_filter_pkg/build/lib/imu_filter_pkg/imu_filter_node.py -> /home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages/imu_filter_pkg
+[7.373s] byte-compiling /home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages/imu_filter_pkg/__init__.py to __init__.cpython-310.pyc
+[7.373s] byte-compiling /home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages/imu_filter_pkg/imu_filter_node.py to imu_filter_node.cpython-310.pyc
+[7.373s] running install_data
+[7.373s] creating /home/eternal/ros2_ws/install/imu_filter_pkg/share/ament_index
+[7.373s] creating /home/eternal/ros2_ws/install/imu_filter_pkg/share/ament_index/resource_index
+[7.374s] creating /home/eternal/ros2_ws/install/imu_filter_pkg/share/ament_index/resource_index/packages
+[7.374s] copying resource/imu_filter_pkg -> /home/eternal/ros2_ws/install/imu_filter_pkg/share/ament_index/resource_index/packages
+[7.374s] copying package.xml -> /home/eternal/ros2_ws/install/imu_filter_pkg/share/imu_filter_pkg
+[7.374s] running install_egg_info
+[7.444s] Copying ../../build/imu_filter_pkg/imu_filter_pkg.egg-info to /home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages/imu_filter_pkg-0.0.0-py3.10.egg-info
+[7.445s] running install_scripts
+[7.587s] Installing imu_filter_node script to /home/eternal/ros2_ws/install/imu_filter_pkg/lib/imu_filter_pkg
+[7.587s] writing list of installed files to '/home/eternal/ros2_ws/build/imu_filter_pkg/install.log'
+[7.629s] Invoked command in '/home/eternal/ros2_ws/src/imu_filter_pkg' returned '0': PYTHONPATH=/home/eternal/ros2_ws/build/imu_filter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu_filter_pkg build --build-base /home/eternal/ros2_ws/build/imu_filter_pkg/build install --record /home/eternal/ros2_ws/build/imu_filter_pkg/install.log --single-version-externally-managed install_data

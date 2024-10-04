@@ -1,0 +1,36 @@
+[5.376s] Invoking command in '/home/eternal/ros2_ws/src/py_launch_example': PYTHONPATH=/home/eternal/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/eternal/ros2_ws/build/py_launch_example/build install --record /home/eternal/ros2_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[7.140s] running egg_info
+[7.140s] creating ../../build/py_launch_example/py_launch_example.egg-info
+[7.140s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[7.140s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[7.140s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[7.141s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[7.141s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[7.141s] listing git files failed - pretending there aren't any
+[7.176s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[7.176s] adding license file 'LICENSE'
+[7.176s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[7.176s] running build
+[7.176s] running build_py
+[7.176s] creating /home/eternal/ros2_ws/build/py_launch_example/build
+[7.176s] creating /home/eternal/ros2_ws/build/py_launch_example/build/lib
+[7.176s] creating /home/eternal/ros2_ws/build/py_launch_example/build/lib/py_launch_example
+[7.177s] copying py_launch_example/__init__.py -> /home/eternal/ros2_ws/build/py_launch_example/build/lib/py_launch_example
+[7.177s] running install
+[7.181s] running install_lib
+[7.254s] creating /home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[7.254s] copying /home/eternal/ros2_ws/build/py_launch_example/build/lib/py_launch_example/__init__.py -> /home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[7.255s] byte-compiling /home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example/__init__.py to __init__.cpython-310.pyc
+[7.255s] running install_data
+[7.255s] creating /home/eternal/ros2_ws/install/py_launch_example/share/ament_index
+[7.255s] creating /home/eternal/ros2_ws/install/py_launch_example/share/ament_index/resource_index
+[7.255s] creating /home/eternal/ros2_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[7.255s] copying resource/py_launch_example -> /home/eternal/ros2_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[7.255s] copying package.xml -> /home/eternal/ros2_ws/install/py_launch_example/share/py_launch_example
+[7.255s] creating /home/eternal/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[7.256s] copying launch/my_script_launch.py -> /home/eternal/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[7.256s] running install_egg_info
+[7.328s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[7.328s] running install_scripts
+[7.455s] writing list of installed files to '/home/eternal/ros2_ws/build/py_launch_example/install.log'
+[7.508s] Invoked command in '/home/eternal/ros2_ws/src/py_launch_example' returned '0': PYTHONPATH=/home/eternal/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/eternal/ros2_ws/build/py_launch_example/build install --record /home/eternal/ros2_ws/build/py_launch_example/install.log --single-version-externally-managed install_data

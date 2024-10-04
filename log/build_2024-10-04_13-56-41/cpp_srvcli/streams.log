@@ -1,0 +1,23 @@
+[0.038s] Invoking command in '/home/eternal/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[2.834s] [ 50%] Built target client
+[2.834s] [100%] Built target server
+[2.837s] Invoked command in '/home/eternal/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[2.874s] Invoking command in '/home/eternal/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/cpp_srvcli
+[2.889s] -- Install configuration: ""
+[2.889s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.889s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[2.889s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.890s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.890s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.890s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.890s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.890s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.891s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.891s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.891s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.891s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.891s] -- Installing: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.892s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.892s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.892s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.892s] -- Up-to-date: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

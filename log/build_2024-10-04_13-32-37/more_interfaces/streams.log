@@ -1,0 +1,239 @@
+[1.012s] Invoking command in '/home/eternal/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/more_interfaces
+[3.033s] -- The C compiler identification is GNU 11.4.0
+[3.033s] -- The CXX compiler identification is GNU 11.4.0
+[3.033s] -- Detecting C compiler ABI info
+[3.034s] -- Detecting C compiler ABI info - done
+[3.034s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.034s] -- Detecting C compile features
+[3.036s] -- Detecting C compile features - done
+[3.038s] -- Detecting CXX compiler ABI info
+[3.039s] -- Detecting CXX compiler ABI info - done
+[3.039s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.039s] -- Detecting CXX compile features
+[3.039s] -- Detecting CXX compile features - done
+[3.039s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.039s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.039s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.039s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.040s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.040s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.040s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.040s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.040s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.040s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.040s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.040s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.041s] -- Looking for pthread.h
+[3.041s] -- Looking for pthread.h - found
+[3.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.041s] -- Found Threads: TRUE  
+[3.041s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.041s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.042s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.042s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.042s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.042s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.042s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.042s] -- Found PythonExtra: .so  
+[3.043s] -- Configuring done
+[3.043s] -- Generating done
+[3.043s] -- Build files have been written to: /home/eternal/ros2_ws/build/more_interfaces
+[3.064s] Invoked command in '/home/eternal/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/more_interfaces
+[3.066s] Invoking command in '/home/eternal/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/more_interfaces -- -j16 -l16
+[3.081s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.086s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.126s] [  6%] Built target ament_cmake_python_copy_more_interfaces
+[3.512s] [  9%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[3.588s] [  9%] Built target more_interfaces__cpp
+[3.593s] [ 12%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[3.601s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.603s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.611s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.673s] [ 21%] Built target more_interfaces__rosidl_generator_c
+[3.697s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.698s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.698s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.002s] running egg_info
+[4.003s] creating more_interfaces.egg-info
+[4.006s] [ 33%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[4.082s] [ 36%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[4.095s] writing more_interfaces.egg-info/PKG-INFO
+[4.132s] [ 39%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[4.149s] [ 42%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[4.158s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[4.194s] [ 45%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[4.288s] [ 45%] Built target more_interfaces__rosidl_typesupport_c
+[4.337s] [ 48%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[4.393s] [ 51%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[4.409s] [ 54%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.486s] [ 54%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[4.789s] [ 57%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[4.878s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[4.878s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[4.937s] [ 57%] Built target more_interfaces__rosidl_typesupport_cpp
+[5.000s] [ 60%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[5.106s] [ 63%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.122s] [ 66%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.229s] listing git files failed - pretending there aren't any
+[5.303s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[5.317s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.386s] [ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.537s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[5.538s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[5.614s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[5.671s] [ 69%] Built target more_interfaces
+[5.675s] [ 69%] Built target ament_cmake_python_build_more_interfaces_egg
+[5.734s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.258s] [ 72%] Built target more_interfaces__py
+[6.283s] [ 75%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[6.419s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so[0m
+[6.481s] [ 78%] Built target more_interfaces__rosidl_generator_py
+[6.505s] [ 81%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.509s] [ 84%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.518s] [ 87%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.605s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.618s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.665s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.665s] [ 93%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.667s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.701s] [ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[10.907s] [100%] [32m[1mLinking CXX executable publish_address_book[0m
+[11.271s] [100%] Built target publish_address_book
+[11.302s] Invoked command in '/home/eternal/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/more_interfaces -- -j16 -l16
+[11.494s] Invoking command in '/home/eternal/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/more_interfaces
+[11.511s] -- Install configuration: ""
+[11.512s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[11.512s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[11.512s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[11.512s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[11.512s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[11.512s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[11.513s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[11.513s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[11.513s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.519s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[11.520s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[11.520s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[11.520s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[11.520s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.520s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.520s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[11.520s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[11.520s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.520s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[11.520s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.521s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[11.521s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[11.521s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[11.521s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[11.521s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[11.521s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[11.521s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[11.521s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[11.521s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[11.521s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[11.521s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[11.521s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[11.521s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[11.521s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[11.521s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.526s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.526s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.526s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[11.526s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[11.526s] -- Up-to-date: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[11.526s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[11.526s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[11.526s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.526s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.526s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[11.526s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.526s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[11.526s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[11.527s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.611s] Listing '/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[11.611s] Compiling '/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py'...
+[11.611s] Listing '/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[11.611s] Compiling '/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py'...
+[11.611s] Compiling '/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py'...
+[11.625s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.625s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.627s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.627s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.627s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.627s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.627s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[11.627s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[11.627s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[11.627s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[11.627s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[11.627s] -- Set runtime path of "/home/eternal/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""
+[11.629s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[11.630s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[11.631s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[11.632s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.633s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.640s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.640s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.640s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.640s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.640s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.640s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[11.640s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[11.640s] -- Installing: /home/eternal/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[11.642s] Invoked command in '/home/eternal/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/more_interfaces

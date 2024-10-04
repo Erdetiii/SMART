@@ -1,0 +1,21 @@
+[1.090s] Invoking command in '/home/eternal/ros2_ws/src/launch_tutorial': PYTHONPATH=/home/eternal/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/eternal/ros2_ws/build/launch_tutorial/build install --record /home/eternal/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[1.625s] running egg_info
+[1.663s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[1.694s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[1.846s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[1.877s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[1.946s] listing git files failed - pretending there aren't any
+[2.022s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.022s] adding license file 'LICENSE'
+[2.022s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.023s] running build
+[2.023s] running build_py
+[2.023s] running install
+[2.027s] running install_lib
+[2.066s] running install_data
+[2.066s] running install_egg_info
+[2.114s] removing '/home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[2.114s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[2.115s] running install_scripts
+[2.188s] writing list of installed files to '/home/eternal/ros2_ws/build/launch_tutorial/install.log'
+[2.207s] Invoked command in '/home/eternal/ros2_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/eternal/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/eternal/ros2_ws/build/launch_tutorial/build install --record /home/eternal/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data

@@ -1,0 +1,10 @@
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/uninstall.dir
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/polygon_base_uninstall.dir
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/area_node.dir
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/test.dir
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/edit_cache.dir
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/rebuild_cache.dir
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/list_install_components.dir
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/install.dir
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/install/local.dir
+/home/eternal/ros2_ws/build/polygon_base/CMakeFiles/install/strip.dir

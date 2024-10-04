@@ -1,0 +1,40 @@
+[5.699s] Invoking command in '/home/eternal/ros2_ws/src/python_parameters': PYTHONPATH=/home/eternal/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/eternal/ros2_ws/build/python_parameters/build install --record /home/eternal/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[7.432s] running egg_info
+[7.432s] creating ../../build/python_parameters/python_parameters.egg-info
+[7.432s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[7.432s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[7.432s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[7.432s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[7.480s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[7.480s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.598s] listing git files failed - pretending there aren't any
+[7.751s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.753s] adding license file 'LICENSE'
+[7.753s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[7.753s] running build
+[7.753s] running build_py
+[7.753s] creating /home/eternal/ros2_ws/build/python_parameters/build
+[7.754s] creating /home/eternal/ros2_ws/build/python_parameters/build/lib
+[7.754s] creating /home/eternal/ros2_ws/build/python_parameters/build/lib/python_parameters
+[7.754s] copying python_parameters/__init__.py -> /home/eternal/ros2_ws/build/python_parameters/build/lib/python_parameters
+[7.754s] copying python_parameters/python_parameters_node.py -> /home/eternal/ros2_ws/build/python_parameters/build/lib/python_parameters
+[7.754s] running install
+[7.759s] running install_lib
+[7.815s] creating /home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[7.815s] copying /home/eternal/ros2_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[7.815s] copying /home/eternal/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[7.815s] byte-compiling /home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc
+[7.815s] byte-compiling /home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc
+[7.815s] running install_data
+[7.816s] creating /home/eternal/ros2_ws/install/python_parameters/share/ament_index
+[7.816s] creating /home/eternal/ros2_ws/install/python_parameters/share/ament_index/resource_index
+[7.816s] creating /home/eternal/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[7.816s] copying resource/python_parameters -> /home/eternal/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[7.816s] copying package.xml -> /home/eternal/ros2_ws/install/python_parameters/share/python_parameters
+[7.816s] copying launch/python_parameters_launch.py -> /home/eternal/ros2_ws/install/python_parameters/share/python_parameters
+[7.816s] running install_egg_info
+[7.878s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[7.879s] running install_scripts
+[8.036s] Installing minimal_param_node script to /home/eternal/ros2_ws/install/python_parameters/lib/python_parameters
+[8.037s] writing list of installed files to '/home/eternal/ros2_ws/build/python_parameters/install.log'
+[8.091s] Invoked command in '/home/eternal/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/eternal/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/eternal/ros2_ws/build/python_parameters/build install --record /home/eternal/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data

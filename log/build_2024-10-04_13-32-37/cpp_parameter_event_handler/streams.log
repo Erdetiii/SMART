@@ -1,0 +1,60 @@
+[0.036s] Invoking command in '/home/eternal/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/cpp_parameter_event_handler
+[3.011s] -- The C compiler identification is GNU 11.4.0
+[3.014s] -- The CXX compiler identification is GNU 11.4.0
+[3.015s] -- Detecting C compiler ABI info
+[3.015s] -- Detecting C compiler ABI info - done
+[3.015s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.016s] -- Detecting C compile features
+[3.017s] -- Detecting C compile features - done
+[3.018s] -- Detecting CXX compiler ABI info
+[3.021s] -- Detecting CXX compiler ABI info - done
+[3.027s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.027s] -- Detecting CXX compile features
+[3.028s] -- Detecting CXX compile features - done
+[3.028s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.029s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.030s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.031s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.033s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.034s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.034s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.034s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.034s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.035s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.035s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.035s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.037s] -- Looking for pthread.h
+[3.037s] -- Looking for pthread.h - found
+[3.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.037s] -- Found Threads: TRUE  
+[3.037s] -- Configuring done
+[3.038s] -- Generating done
+[3.038s] -- Build files have been written to: /home/eternal/ros2_ws/build/cpp_parameter_event_handler
+[3.065s] Invoked command in '/home/eternal/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/cpp_parameter_event_handler
+[3.065s] Invoking command in '/home/eternal/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/cpp_parameter_event_handler -- -j16 -l16
+[3.086s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[15.949s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[16.333s] [100%] Built target parameter_event_handler
+[16.341s] Invoked command in '/home/eternal/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/cpp_parameter_event_handler -- -j16 -l16
+[16.363s] Invoking command in '/home/eternal/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/cpp_parameter_event_handler
+[16.372s] -- Install configuration: ""
+[16.372s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[16.377s] -- Set runtime path of "/home/eternal/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+[16.377s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[16.377s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[16.377s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[16.377s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[16.378s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[16.378s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[16.378s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[16.378s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[16.378s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[16.378s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[16.378s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[16.379s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[16.379s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[16.379s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[16.379s] -- Installing: /home/eternal/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[16.381s] Invoked command in '/home/eternal/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/cpp_parameter_event_handler

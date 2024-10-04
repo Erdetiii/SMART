@@ -1,0 +1,25 @@
+[0.034s] Invoking command in '/home/eternal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/polygon_base -- -j16 -l16
+[2.824s] [100%] Built target area_node
+[2.833s] Invoked command in '/home/eternal/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/polygon_base -- -j16 -l16
+[2.862s] Invoking command in '/home/eternal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/polygon_base
+[2.869s] -- Install configuration: ""
+[2.869s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/include
+[2.869s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/include/polygon_base
+[2.869s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[2.869s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+[2.874s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[2.874s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[2.874s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[2.875s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[2.875s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[2.875s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[2.875s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[2.876s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[2.876s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[2.876s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[2.876s] -- Installing: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[2.876s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[2.876s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.876s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[2.877s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[2.878s] -- Up-to-date: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/package.xml

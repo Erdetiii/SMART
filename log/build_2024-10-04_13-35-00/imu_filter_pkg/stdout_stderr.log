@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/requires.txt
+writing top-level names to ../../build/imu_filter_pkg/imu_filter_pkg.egg-info/top_level.txt
+listing git files failed - pretending there aren't any
+reading manifest file '../../build/imu_filter_pkg/imu_filter_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/imu_filter_pkg/imu_filter_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages/imu_filter_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/imu_filter_pkg/imu_filter_pkg.egg-info to /home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages/imu_filter_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_filter_node script to /home/eternal/ros2_ws/install/imu_filter_pkg/lib/imu_filter_pkg
+writing list of installed files to '/home/eternal/ros2_ws/build/imu_filter_pkg/install.log'

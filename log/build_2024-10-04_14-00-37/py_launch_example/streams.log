@@ -1,0 +1,21 @@
+[1.078s] Invoking command in '/home/eternal/ros2_ws/src/py_launch_example': PYTHONPATH=/home/eternal/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/eternal/ros2_ws/build/py_launch_example/build install --record /home/eternal/ros2_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[1.609s] running egg_info
+[1.648s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[1.678s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[1.832s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[1.863s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[1.931s] listing git files failed - pretending there aren't any
+[2.008s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[2.008s] adding license file 'LICENSE'
+[2.009s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[2.009s] running build
+[2.009s] running build_py
+[2.009s] running install
+[2.013s] running install_lib
+[2.052s] running install_data
+[2.052s] running install_egg_info
+[2.091s] removing '/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info' (and everything under it)
+[2.091s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[2.091s] running install_scripts
+[2.165s] writing list of installed files to '/home/eternal/ros2_ws/build/py_launch_example/install.log'
+[2.185s] Invoked command in '/home/eternal/ros2_ws/src/py_launch_example' returned '0': PYTHONPATH=/home/eternal/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/eternal/ros2_ws/build/py_launch_example/build install --record /home/eternal/ros2_ws/build/py_launch_example/install.log --single-version-externally-managed install_data

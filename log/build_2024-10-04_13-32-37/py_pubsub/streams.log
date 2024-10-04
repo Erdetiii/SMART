@@ -1,0 +1,43 @@
+[5.354s] Invoking command in '/home/eternal/ros2_ws/src/py_pubsub': PYTHONPATH=/home/eternal/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/eternal/ros2_ws/build/py_pubsub/build install --record /home/eternal/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[6.475s] running egg_info
+[6.475s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[6.547s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[6.602s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[6.753s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[6.845s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[6.909s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[6.910s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[7.020s] listing git files failed - pretending there aren't any
+[7.147s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[7.147s] adding license file 'LICENSE'
+[7.147s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[7.147s] running build
+[7.147s] running build_py
+[7.148s] creating /home/eternal/ros2_ws/build/py_pubsub/build
+[7.148s] creating /home/eternal/ros2_ws/build/py_pubsub/build/lib
+[7.148s] creating /home/eternal/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[7.148s] copying py_pubsub/publisher_member_function.py -> /home/eternal/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[7.148s] copying py_pubsub/__init__.py -> /home/eternal/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[7.148s] copying py_pubsub/subscriber_member_function.py -> /home/eternal/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[7.148s] running install
+[7.157s] running install_lib
+[7.231s] creating /home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[7.231s] copying /home/eternal/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[7.231s] copying /home/eternal/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[7.232s] copying /home/eternal/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[7.232s] byte-compiling /home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[7.232s] byte-compiling /home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[7.232s] byte-compiling /home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[7.232s] running install_data
+[7.232s] creating /home/eternal/ros2_ws/install/py_pubsub/share/ament_index
+[7.232s] creating /home/eternal/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[7.232s] creating /home/eternal/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[7.232s] copying resource/py_pubsub -> /home/eternal/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[7.232s] copying package.xml -> /home/eternal/ros2_ws/install/py_pubsub/share/py_pubsub
+[7.232s] running install_egg_info
+[7.296s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[7.297s] running install_scripts
+[7.389s] Installing listener script to /home/eternal/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.389s] Installing talker script to /home/eternal/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.390s] writing list of installed files to '/home/eternal/ros2_ws/build/py_pubsub/install.log'
+[7.424s] Invoked command in '/home/eternal/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/eternal/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/eternal/ros2_ws/build/py_pubsub/build install --record /home/eternal/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

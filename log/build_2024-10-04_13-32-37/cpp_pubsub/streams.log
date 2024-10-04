@@ -1,0 +1,66 @@
+[0.008s] Invoking command in '/home/eternal/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eternal/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/eternal/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/cpp_pubsub
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.199s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.315s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.844s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.978s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.022s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.025s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.034s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.109s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.112s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.209s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.239s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.298s] -- Looking for pthread.h
+[1.447s] -- Looking for pthread.h - found
+[1.447s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.607s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.608s] -- Found Threads: TRUE  
+[1.747s] -- Found tutorial_interfaces: 0.0.0 (/home/eternal/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.974s] -- Configuring done
+[2.017s] -- Generating done
+[2.018s] -- Build files have been written to: /home/eternal/ros2_ws/build/cpp_pubsub
+[2.050s] Invoked command in '/home/eternal/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eternal/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/eternal/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/cpp_pubsub
+[2.051s] Invoking command in '/home/eternal/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eternal/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eternal/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[2.151s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.151s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[7.978s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[8.184s] [ 75%] Built target talker
+[12.376s] [100%] [32m[1mLinking CXX executable listener[0m
+[12.642s] [100%] Built target listener
+[12.651s] Invoked command in '/home/eternal/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eternal/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eternal/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[12.674s] Invoking command in '/home/eternal/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eternal/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eternal/ros2_ws/build/cpp_pubsub
+[12.679s] -- Install configuration: ""
+[12.679s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[12.680s] -- Set runtime path of "/home/eternal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[12.680s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[12.682s] -- Set runtime path of "/home/eternal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[12.682s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[12.682s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[12.682s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[12.682s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[12.682s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[12.682s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[12.682s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[12.683s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[12.683s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[12.683s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[12.683s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[12.683s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[12.683s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[12.683s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[12.683s] -- Installing: /home/eternal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[12.684s] Invoked command in '/home/eternal/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/eternal/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eternal/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eternal/ros2_ws/build/cpp_pubsub

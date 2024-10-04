@@ -1,0 +1,87 @@
+[0.034s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[2.823s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.823s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.823s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.823s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.823s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.823s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.823s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.823s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.823s] -- Found rosbag2_transport: 0.15.12 (/opt/ros/humble/share/rosbag2_transport/cmake)
+[2.823s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.823s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.823s] -- Configured cppcheck include dirs: 
+[2.823s] -- Configured cppcheck exclude dirs and/or files: 
+[2.823s] -- Added test 'lint_cmake' to check CMake code style
+[2.823s] -- Added test 'uncrustify' to check C / C++ code style
+[2.823s] -- Configured uncrustify additional arguments: 
+[2.823s] -- Added test 'xmllint' to check XML markup files
+[2.823s] -- Configuring done
+[2.823s] -- Generating done
+[2.823s] -- Build files have been written to: /home/eternal/ros2_ws/build/bag_reading_cpp
+[2.823s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o[0m
+[2.824s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:52:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[2.824s]    52 |     rclcpp::Publisher<[01;31m[Kturtlesim[m[K::msg::Pose>::SharedPtr publisher_;
+[2.824s]       |                       [01;31m[K^~~~~~~~~[m[K
+[2.824s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:52:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.824s]    52 |     rclcpp::Publisher<turtlesim::msg::Pose[01;31m[K>[m[K::SharedPtr publisher_;
+[2.824s]       |                                           [01;31m[K^[m[K
+[2.824s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:52:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.824s]    52 |     rclcpp::Publisher<turtlesim::msg::Pose>::[01;31m[KSharedPtr[m[K publisher_;
+[2.824s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.824s]       |                                                       [32m[K;[m[K
+[2.824s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:52:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.824s]    52 |     rclcpp::Publisher<turtlesim::msg::Pose>::SharedPtr [01;31m[Kpublisher_[m[K;
+[2.824s]       |                                                        [01;31m[K^~~~~~~~~~[m[K
+[2.824s]       |                                                        [32m[Krmw_publisher_t[m[K
+[2.824s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:54:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[2.824s]    54 |     rclcpp::Serialization<[01;31m[Kturtlesim[m[K::msg::Pose> serialization_;
+[2.824s]       |                           [01;31m[K^~~~~~~~~[m[K
+[2.824s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:54:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.824s]    54 |     rclcpp::Serialization<turtlesim::msg::Pose[01;31m[K>[m[K serialization_;
+[2.824s]       |                                               [01;31m[K^[m[K
+[2.824s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:[m[K In constructor ‘[01m[KPlaybackNode::PlaybackNode(const string&)[m[K’:
+[2.824s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:19:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.824s]    19 |       [01;31m[Kpublisher_[m[K = this->create_publisher<turtlesim::msg::Pose>("/turtle1/pose", 10);
+[2.824s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.824s]       |       [32m[Krmw_publisher_t[m[K
+[2.824s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:19:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[2.825s]    19 |       publisher_ = this->create_publisher<[01;31m[Kturtlesim[m[K::msg::Pose>("/turtle1/pose", 10);
+[2.825s]       |                                           [01;31m[K^~~~~~~~~[m[K
+[2.825s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:19:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.825s]    19 |       publisher_ = this->[01;31m[Kcreate_publisher<turtlesim::msg::Pose>[m[K("/turtle1/pose", 10);
+[2.825s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.825s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:19:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPlaybackNode::create_publisher<<expression error> >(const char [14], int)[m[K’
+[2.825s]    19 |       publisher_ = [01;31m[Kthis->create_publisher<turtlesim::msg::Pose>("/turtle1/pose", 10)[m[K;
+[2.825s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.825s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.825s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.825s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.825s]                  from [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:7[m[K:
+[2.825s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.825s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[2.825s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.825s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.826s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:19:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.826s]    19 |       publisher_ = [01;31m[Kthis->create_publisher<turtlesim::msg::Pose>("/turtle1/pose", 10)[m[K;
+[2.826s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.826s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::timer_callback()[m[K’:
+[2.826s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ has not been declared
+[2.826s]    40 |         [01;31m[Kturtlesim[m[K::msg::Pose::SharedPtr ros_msg = std::make_shared<turtlesim::msg::Pose>();
+[2.826s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.826s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:42:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdeserialize_message[m[K’ in ‘[01m[K((PlaybackNode*)this)->PlaybackNode::serialization_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.826s]    42 |         serialization_.[01;31m[Kdeserialize_message[m[K(&serialized_msg, ros_msg.get());
+[2.826s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.826s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:42:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_msg[m[K’ was not declared in this scope
+[2.826s]    42 |         serialization_.deserialize_message(&serialized_msg, [01;31m[Kros_msg[m[K.get());
+[2.826s]       |                                                             [01;31m[K^~~~~~~[m[K
+[2.826s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.826s]    44 |         [01;31m[Kpublisher_[m[K->publish(*ros_msg);
+[2.826s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.826s]       |         [32m[Krmw_publisher_t[m[K
+[2.826s] gmake[2]: *** [CMakeFiles/simple_bag_reader.dir/build.make:76: CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o] Error 1
+[2.826s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_bag_reader.dir/all] Error 2
+[2.826s] gmake: *** [Makefile:146: all] Error 2
+[2.837s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16

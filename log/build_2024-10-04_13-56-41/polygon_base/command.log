@@ -1,0 +1,3 @@
+Invoking command in '/home/eternal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/polygon_base -- -j16 -l16
+Invoked command in '/home/eternal/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/polygon_base -- -j16 -l16
+Invoking command in '/home/eternal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/polygon_base
