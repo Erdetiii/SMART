@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000357] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000398] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.000416] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000431] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000446] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000486] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000500] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000517] (bag_reading_cpp) JobQueued: {'identifier': 'bag_reading_cpp', 'dependencies': OrderedDict()}
+[0.000539] (bag_reading_cpp) JobStarted: {'identifier': 'bag_reading_cpp'}
+[0.013173] (bag_reading_cpp) JobProgress: {'identifier': 'bag_reading_cpp', 'progress': 'cmake'}
+[0.014140] (bag_reading_cpp) JobProgress: {'identifier': 'bag_reading_cpp', 'progress': 'build'}
+[0.014929] (bag_reading_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eternal/ros2_ws/build/bag_reading_cpp', '--', '-j16', '-l16'], 'cwd': '/home/eternal/ros2_ws/build/bag_reading_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eternal'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eternal/ros2_ws/install/tutorial_interfaces/lib:/home/eternal/ros2_ws/install/turtlesim/lib:/home/eternal/ros2_ws/install/polygon_plugins/lib:/home/eternal/ros2_ws/install/more_interfaces/lib:/home/eternal/ros2_ws/install/action_tutorials_cpp/lib:/home/eternal/ros2_ws/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eternal'), ('OLDPWD', '/home/eternal'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '2075'), ('SYSTEMD_EXEC_PID', '2537'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5433'), ('COLCON_PREFIX_PATH', '/home/eternal/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eternal'), ('JOURNAL_STREAM', '8:20866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eternal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/eternal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eternal-AORUS-15-BKF:@/tmp/.ICE-unix/2483,unix/eternal-AORUS-15-BKF:/tmp/.ICE-unix/2483'), ('INVOCATION_ID', '2b743471107d43deb9502283d36aaae9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eternal/ros2_ws/install/cpp_srvcli:/home/eternal/ros2_ws/install/cpp_pubsub:/home/eternal/ros2_ws/install/tutorial_interfaces:/home/eternal/ros2_ws/install/bag_reading_cpp:/home/eternal/ros2_ws/install/turtlesim:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/polygon_plugins:/home/eternal/ros2_ws/install/polygon_base:/home/eternal/ros2_ws/install/my_package:/home/eternal/ros2_ws/install/more_interfaces:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/home/eternal/ros2_ws/install/cpp_parameters:/home/eternal/ros2_ws/install/cpp_parameter_event_handler:/home/eternal/ros2_ws/install/action_tutorials_cpp:/home/eternal/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:43d9bae0-1f31-43e0-8835-3f046d3884e2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eternal/ros2_ws/build/bag_reading_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eternal/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/eternal/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eternal/ros2_ws/install/cpp_srvcli:/home/eternal/ros2_ws/install/cpp_pubsub:/home/eternal/ros2_ws/install/tutorial_interfaces:/home/eternal/ros2_ws/install/bag_reading_cpp:/home/eternal/ros2_ws/install/turtlesim:/home/eternal/ros2_ws/install/polygon_plugins:/home/eternal/ros2_ws/install/polygon_base:/home/eternal/ros2_ws/install/my_package:/home/eternal/ros2_ws/install/more_interfaces:/home/eternal/ros2_ws/install/cpp_parameters:/home/eternal/ros2_ws/install/cpp_parameter_event_handler:/home/eternal/ros2_ws/install/action_tutorials_cpp:/home/eternal/ros2_ws/install/action_tutorials_interfaces:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099379] (-) TimerEvent: {}
+[0.169079] (bag_reading_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_bag_reader\x1b[0m\n'}
+[0.199581] (-) TimerEvent: {}
+[0.248139] (bag_reading_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o\x1b[0m\n'}
+[0.299862] (-) TimerEvent: {}
+[0.400469] (-) TimerEvent: {}
+[0.500931] (-) TimerEvent: {}
+[0.601324] (-) TimerEvent: {}
+[0.701673] (-) TimerEvent: {}
+[0.802066] (-) TimerEvent: {}
+[0.902492] (-) TimerEvent: {}
+[1.002931] (-) TimerEvent: {}
+[1.103320] (-) TimerEvent: {}
+[1.203671] (-) TimerEvent: {}
+[1.304134] (-) TimerEvent: {}
+[1.404616] (-) TimerEvent: {}
+[1.505101] (-) TimerEvent: {}
+[1.605474] (-) TimerEvent: {}
+[1.705952] (-) TimerEvent: {}
+[1.806447] (-) TimerEvent: {}
+[1.906845] (-) TimerEvent: {}
+[2.007327] (-) TimerEvent: {}
+[2.107690] (-) TimerEvent: {}
+[2.208148] (-) TimerEvent: {}
+[2.308533] (-) TimerEvent: {}
+[2.408924] (-) TimerEvent: {}
+[2.509405] (-) TimerEvent: {}
+[2.609917] (-) TimerEvent: {}
+[2.710391] (-) TimerEvent: {}
+[2.810826] (-) TimerEvent: {}
+[2.911311] (-) TimerEvent: {}
+[3.011817] (-) TimerEvent: {}
+[3.112335] (-) TimerEvent: {}
+[3.212709] (-) TimerEvent: {}
+[3.313106] (-) TimerEvent: {}
+[3.413587] (-) TimerEvent: {}
+[3.513976] (-) TimerEvent: {}
+[3.614404] (-) TimerEvent: {}
+[3.714744] (-) TimerEvent: {}
+[3.815146] (-) TimerEvent: {}
+[3.915440] (-) TimerEvent: {}
+[4.015765] (-) TimerEvent: {}
+[4.116164] (-) TimerEvent: {}
+[4.216491] (-) TimerEvent: {}
+[4.316855] (-) TimerEvent: {}
+[4.417315] (-) TimerEvent: {}
+[4.517618] (-) TimerEvent: {}
+[4.617943] (-) TimerEvent: {}
+[4.718408] (-) TimerEvent: {}
+[4.818737] (-) TimerEvent: {}
+[4.919172] (-) TimerEvent: {}
+[5.019515] (-) TimerEvent: {}
+[5.119835] (-) TimerEvent: {}
+[5.220225] (-) TimerEvent: {}
+[5.320528] (-) TimerEvent: {}
+[5.420841] (-) TimerEvent: {}
+[5.521327] (-) TimerEvent: {}
+[5.621677] (-) TimerEvent: {}
+[5.722140] (-) TimerEvent: {}
+[5.822444] (-) TimerEvent: {}
+[5.922762] (-) TimerEvent: {}
+[6.023144] (-) TimerEvent: {}
+[6.123438] (-) TimerEvent: {}
+[6.223731] (-) TimerEvent: {}
+[6.324061] (-) TimerEvent: {}
+[6.424441] (-) TimerEvent: {}
+[6.524751] (-) TimerEvent: {}
+[6.625069] (-) TimerEvent: {}
+[6.725451] (-) TimerEvent: {}
+[6.764437] (bag_reading_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_bag_reader\x1b[0m\n'}
+[6.825580] (-) TimerEvent: {}
+[6.926035] (-) TimerEvent: {}
+[7.026507] (-) TimerEvent: {}
+[7.061612] (bag_reading_cpp) StdoutLine: {'line': b'[100%] Built target simple_bag_reader\n'}
+[7.081237] (bag_reading_cpp) CommandEnded: {'returncode': 0}
+[7.124119] (bag_reading_cpp) JobProgress: {'identifier': 'bag_reading_cpp', 'progress': 'install'}
+[7.126577] (-) TimerEvent: {}
+[7.133909] (bag_reading_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eternal/ros2_ws/build/bag_reading_cpp'], 'cwd': '/home/eternal/ros2_ws/build/bag_reading_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eternal'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eternal/ros2_ws/install/tutorial_interfaces/lib:/home/eternal/ros2_ws/install/turtlesim/lib:/home/eternal/ros2_ws/install/polygon_plugins/lib:/home/eternal/ros2_ws/install/more_interfaces/lib:/home/eternal/ros2_ws/install/action_tutorials_cpp/lib:/home/eternal/ros2_ws/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eternal'), ('OLDPWD', '/home/eternal'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '2075'), ('SYSTEMD_EXEC_PID', '2537'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5433'), ('COLCON_PREFIX_PATH', '/home/eternal/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eternal'), ('JOURNAL_STREAM', '8:20866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eternal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/eternal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eternal-AORUS-15-BKF:@/tmp/.ICE-unix/2483,unix/eternal-AORUS-15-BKF:/tmp/.ICE-unix/2483'), ('INVOCATION_ID', '2b743471107d43deb9502283d36aaae9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eternal/ros2_ws/install/cpp_srvcli:/home/eternal/ros2_ws/install/cpp_pubsub:/home/eternal/ros2_ws/install/tutorial_interfaces:/home/eternal/ros2_ws/install/bag_reading_cpp:/home/eternal/ros2_ws/install/turtlesim:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/polygon_plugins:/home/eternal/ros2_ws/install/polygon_base:/home/eternal/ros2_ws/install/my_package:/home/eternal/ros2_ws/install/more_interfaces:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/home/eternal/ros2_ws/install/cpp_parameters:/home/eternal/ros2_ws/install/cpp_parameter_event_handler:/home/eternal/ros2_ws/install/action_tutorials_cpp:/home/eternal/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:43d9bae0-1f31-43e0-8835-3f046d3884e2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eternal/ros2_ws/build/bag_reading_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eternal/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/eternal/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/eternal/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/eternal/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/imu_filter_pkg/lib/python3.10/site-packages:/home/eternal/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eternal/ros2_ws/install/cpp_srvcli:/home/eternal/ros2_ws/install/cpp_pubsub:/home/eternal/ros2_ws/install/tutorial_interfaces:/home/eternal/ros2_ws/install/bag_reading_cpp:/home/eternal/ros2_ws/install/turtlesim:/home/eternal/ros2_ws/install/polygon_plugins:/home/eternal/ros2_ws/install/polygon_base:/home/eternal/ros2_ws/install/my_package:/home/eternal/ros2_ws/install/more_interfaces:/home/eternal/ros2_ws/install/cpp_parameters:/home/eternal/ros2_ws/install/cpp_parameter_event_handler:/home/eternal/ros2_ws/install/action_tutorials_cpp:/home/eternal/ros2_ws/install/action_tutorials_interfaces:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble')]), 'shell': False}
+[7.145867] (bag_reading_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.147701] (bag_reading_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.148293] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/lib/bag_reading_cpp/simple_bag_reader\n'}
+[7.148936] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/package_run_dependencies/bag_reading_cpp\n'}
+[7.149231] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/parent_prefix_path/bag_reading_cpp\n'}
+[7.149838] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.sh\n'}
+[7.150026] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.dsv\n'}
+[7.150154] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.sh\n'}
+[7.150262] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.dsv\n'}
+[7.150567] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.bash\n'}
+[7.151046] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.sh\n'}
+[7.151352] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.zsh\n'}
+[7.151526] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.dsv\n'}
+[7.151651] (bag_reading_cpp) StdoutLine: {'line': b'-- Symlinking: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/package.dsv\n'}
+[7.170455] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/packages/bag_reading_cpp\n'}
+[7.171028] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig.cmake\n'}
+[7.171416] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig-version.cmake\n'}
+[7.171555] (bag_reading_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/package.xml\n'}
+[7.174699] (bag_reading_cpp) CommandEnded: {'returncode': 0}
+[7.226815] (-) TimerEvent: {}
+[7.243233] (bag_reading_cpp) JobEnded: {'identifier': 'bag_reading_cpp', 'rc': 0}
+[7.244018] (-) EventReactorShutdown: {}

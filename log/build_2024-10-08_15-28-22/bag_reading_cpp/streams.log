@@ -1,0 +1,26 @@
+[0.047s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target simple_bag_reader[0m
+[0.195s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o[0m
+[9.162s] [100%] [32m[1mLinking CXX executable simple_bag_reader[0m
+[9.456s] [100%] Built target simple_bag_reader
+[9.472s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[9.514s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/bag_reading_cpp
+[9.524s] -- Install configuration: ""
+[9.525s] -- Execute custom install script
+[9.525s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/lib/bag_reading_cpp/simple_bag_reader
+[9.526s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/package_run_dependencies/bag_reading_cpp
+[9.526s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/parent_prefix_path/bag_reading_cpp
+[9.526s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.sh
+[9.526s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.dsv
+[9.526s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.sh
+[9.527s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.dsv
+[9.527s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.bash
+[9.527s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.sh
+[9.527s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.zsh
+[9.527s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.dsv
+[9.527s] -- Symlinking: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/package.dsv
+[9.545s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/packages/bag_reading_cpp
+[9.546s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig.cmake
+[9.546s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig-version.cmake
+[9.546s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/package.xml
+[9.550s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/bag_reading_cpp

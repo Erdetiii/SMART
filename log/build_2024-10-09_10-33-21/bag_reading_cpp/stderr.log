@@ -1,0 +1,7 @@
+[01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader_test.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    9 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple_bag_reader_test.dir/build.make:76: CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_bag_reader_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

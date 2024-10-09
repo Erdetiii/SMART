@@ -1,2 +1,1 @@
-source;share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
-source;share/cpp_parameter_event_handler/environment/path.sh
+/home/eternal/ros2_ws/build/cpp_parameter_event_handler/ament_cmake_environment_hooks/local_setup.dsv

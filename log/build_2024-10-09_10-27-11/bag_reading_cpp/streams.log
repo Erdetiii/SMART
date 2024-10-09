@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target simple_bag_reader[0m
+[0.248s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o[0m
+[6.764s] [100%] [32m[1mLinking CXX executable simple_bag_reader[0m
+[7.061s] [100%] Built target simple_bag_reader
+[7.081s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[7.134s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/bag_reading_cpp
+[7.145s] -- Install configuration: ""
+[7.147s] -- Execute custom install script
+[7.148s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/lib/bag_reading_cpp/simple_bag_reader
+[7.149s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/package_run_dependencies/bag_reading_cpp
+[7.149s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/parent_prefix_path/bag_reading_cpp
+[7.149s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.sh
+[7.150s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.dsv
+[7.150s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.sh
+[7.150s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.dsv
+[7.150s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.bash
+[7.151s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.sh
+[7.151s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.zsh
+[7.151s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.dsv
+[7.151s] -- Symlinking: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/package.dsv
+[7.170s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/packages/bag_reading_cpp
+[7.171s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig.cmake
+[7.171s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig-version.cmake
+[7.171s] -- Up-to-date symlink: /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/package.xml
+[7.174s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/bag_reading_cpp

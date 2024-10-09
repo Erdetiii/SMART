@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[0.052s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.232s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.245s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.283s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.286s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.298s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.460s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.462s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.590s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.655s] -- Found rosbag2_transport: 0.15.12 (/opt/ros/humble/share/rosbag2_transport/cmake)
+[0.704s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.822s] -- Configuring done
+[0.836s] -- Generating done
+[0.838s] -- Build files have been written to: /home/eternal/ros2_ws/build/bag_reading_cpp
+[0.876s] [35m[1mConsolidate compiler generated dependencies of target simple_bag_reader[0m
+[0.888s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o[0m
+[0.902s] [ 75%] Built target simple_bag_reader
+[0.965s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader_test.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.965s]     9 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.965s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.965s] compilation terminated.
+[0.967s] gmake[2]: *** [CMakeFiles/simple_bag_reader_test.dir/build.make:76: CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o] Error 1
+[0.967s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_bag_reader_test.dir/all] Error 2
+[0.968s] gmake: *** [Makefile:146: all] Error 2
+[0.972s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16

@@ -1,0 +1,43 @@
+[0.079s] Invoking command in '/home/eternal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/polygon_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/polygon_base
+[0.113s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.464s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.485s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.565s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.768s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.768s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/eternal/ros2_ws/src/polygon_base/include>
+[0.769s] -- Configured cppcheck exclude dirs and/or files: 
+[0.770s] -- Added test 'lint_cmake' to check CMake code style
+[0.772s] -- Added test 'uncrustify' to check C / C++ code style
+[0.772s] -- Configured uncrustify additional arguments: 
+[0.773s] -- Added test 'xmllint' to check XML markup files
+[0.777s] -- Configuring done
+[0.788s] -- Generating done
+[0.789s] -- Build files have been written to: /home/eternal/ros2_ws/build/polygon_base
+[0.798s] Invoked command in '/home/eternal/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/polygon_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/polygon_base
+[0.803s] Invoking command in '/home/eternal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/polygon_base -- -j16 -l16
+[0.898s] [35m[1mConsolidate compiler generated dependencies of target area_node[0m
+[0.935s] [ 50%] [32m[1mLinking CXX executable area_node[0m
+[1.330s] [100%] Built target area_node
+[1.358s] Invoked command in '/home/eternal/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/polygon_base -- -j16 -l16
+[1.457s] Invoking command in '/home/eternal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/polygon_base
+[1.477s] -- Install configuration: ""
+[1.479s] -- Execute custom install script
+[1.480s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[1.502s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+[1.528s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[1.546s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[1.566s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[1.589s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[1.611s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[1.641s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[1.669s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[1.696s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[1.725s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[1.752s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[1.784s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[1.813s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[1.850s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.880s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[1.904s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[1.934s] -- Symlinking: /home/eternal/ros2_ws/install/polygon_base/share/polygon_base/package.xml
+[1.977s] Invoked command in '/home/eternal/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/polygon_base

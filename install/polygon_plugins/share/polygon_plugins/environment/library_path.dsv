@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/home/eternal/ros2_ws/build/polygon_plugins/ament_cmake_environment_hooks/library_path.dsv

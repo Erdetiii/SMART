@@ -1,0 +1,11 @@
+[0.060s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[0.170s] [35m[1mConsolidate compiler generated dependencies of target simple_bag_reader[0m
+[0.218s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o[0m
+[4.789s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::timer_callback()[m[K’:
+[4.789s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:74:13:[m[K [01;31m[Kerror: [m[Kcontinue statement not within a loop
+[4.789s]    74 |             [01;31m[Kcontinue[m[K;
+[4.791s]       |             [01;31m[K^~~~~~~~[m[K
+[6.485s] gmake[2]: *** [CMakeFiles/simple_bag_reader.dir/build.make:76: CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o] Error 1
+[6.485s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_bag_reader.dir/all] Error 2
+[6.486s] gmake: *** [Makefile:146: all] Error 2
+[6.491s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16

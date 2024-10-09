@@ -210,6 +210,19 @@ simple_bag_reader/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_bag_reader.dir/build.make CMakeFiles/simple_bag_reader.dir/build
 .PHONY : simple_bag_reader/fast
 
+#=============================================================================
+# Target rules for targets named simple_bag_reader_test
+
+# Build rule for target.
+simple_bag_reader_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_bag_reader_test
+.PHONY : simple_bag_reader_test
+
+# fast build rule for target.
+simple_bag_reader_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_bag_reader_test.dir/build.make CMakeFiles/simple_bag_reader_test.dir/build
+.PHONY : simple_bag_reader_test/fast
+
 src/simple_bag_reader.o: src/simple_bag_reader.cpp.o
 .PHONY : src/simple_bag_reader.o
 
@@ -234,6 +247,30 @@ src/simple_bag_reader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_bag_reader.dir/build.make CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.s
 .PHONY : src/simple_bag_reader.cpp.s
 
+src/simple_bag_reader_test.o: src/simple_bag_reader_test.cpp.o
+.PHONY : src/simple_bag_reader_test.o
+
+# target to build an object file
+src/simple_bag_reader_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_bag_reader_test.dir/build.make CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o
+.PHONY : src/simple_bag_reader_test.cpp.o
+
+src/simple_bag_reader_test.i: src/simple_bag_reader_test.cpp.i
+.PHONY : src/simple_bag_reader_test.i
+
+# target to preprocess a source file
+src/simple_bag_reader_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_bag_reader_test.dir/build.make CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.i
+.PHONY : src/simple_bag_reader_test.cpp.i
+
+src/simple_bag_reader_test.s: src/simple_bag_reader_test.cpp.s
+.PHONY : src/simple_bag_reader_test.s
+
+# target to generate assembly for a file
+src/simple_bag_reader_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_bag_reader_test.dir/build.make CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.s
+.PHONY : src/simple_bag_reader_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... bag_reading_cpp_uninstall"
 	@echo "... uninstall"
 	@echo "... simple_bag_reader"
+	@echo "... simple_bag_reader_test"
 	@echo "... src/simple_bag_reader.o"
 	@echo "... src/simple_bag_reader.i"
 	@echo "... src/simple_bag_reader.s"
+	@echo "... src/simple_bag_reader_test.o"
+	@echo "... src/simple_bag_reader_test.i"
+	@echo "... src/simple_bag_reader_test.s"
 .PHONY : help
 
 

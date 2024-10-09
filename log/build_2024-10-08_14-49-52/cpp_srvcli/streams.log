@@ -1,0 +1,46 @@
+[0.072s] Invoking command in '/home/eternal/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/cpp_srvcli -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/cpp_srvcli
+[0.100s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.519s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.592s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.600s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.618s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.746s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.750s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.003s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.122s] -- Found tutorial_interfaces: 0.0.0 (/home/eternal/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.398s] -- Configuring done
+[1.434s] -- Generating done
+[1.439s] -- Build files have been written to: /home/eternal/ros2_ws/build/cpp_srvcli
+[1.461s] Invoked command in '/home/eternal/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/cpp_srvcli -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/cpp_srvcli
+[1.467s] Invoking command in '/home/eternal/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[1.563s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[1.564s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[1.611s] [ 25%] [32m[1mLinking CXX executable client[0m
+[1.617s] [ 50%] [32m[1mLinking CXX executable server[0m
+[2.138s] [ 75%] Built target server
+[2.198s] [100%] Built target client
+[2.235s] Invoked command in '/home/eternal/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[2.341s] Invoking command in '/home/eternal/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/cpp_srvcli
+[2.365s] -- Install configuration: ""
+[2.366s] -- Execute custom install script
+[2.367s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.390s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[2.411s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.433s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.452s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.472s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.492s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.520s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.540s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.559s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.585s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.606s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.636s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.658s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.683s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.704s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.727s] -- Symlinking: /home/eternal/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[2.758s] Invoked command in '/home/eternal/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/cpp_srvcli

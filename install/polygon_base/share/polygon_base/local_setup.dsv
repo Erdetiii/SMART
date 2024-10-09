@@ -1,2 +1,1 @@
-source;share/polygon_base/environment/ament_prefix_path.sh
-source;share/polygon_base/environment/path.sh
+/home/eternal/ros2_ws/build/polygon_base/ament_cmake_environment_hooks/local_setup.dsv

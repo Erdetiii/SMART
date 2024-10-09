@@ -1,0 +1,47 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found polygon_base: 0.0.0 (/home/eternal/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/eternal/ros2_ws/src/polygon_plugins/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eternal/ros2_ws/build/polygon_plugins
+[35m[1mConsolidate compiler generated dependencies of target polygon_plugins[0m
+[100%] Built target polygon_plugins
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins//plugins.xml
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+-- Symlinking: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+-- Up-to-date: /home/eternal/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+-- Up-to-date: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+-- Up-to-date: /home/eternal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
