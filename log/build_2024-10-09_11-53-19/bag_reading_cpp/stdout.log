@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_bag_reader_test[0m
+[ 50%] Built target simple_bag_reader
+[ 75%] [32mBuilding CXX object CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o[0m

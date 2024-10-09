@@ -50,6 +50,7 @@ public:
 
     void process_imu_data()
     {
+        int inc = 0;
         while (reader_->has_next())
         {
             rosbag2_storage::SerializedBagMessageSharedPtr msg = reader_->read_next();
@@ -75,14 +76,15 @@ public:
             apply_filter(ros_msg);
 
             // Write filtered data to the CSV file
-            csv_file_ << ros_msg->header.stamp.sec + ros_msg->header.stamp.nanosec / 1e9 << ","
+            csv_file_ << inc << ","
                       << filtered_acc_x_ << ","
                       << filtered_acc_y_ << ","
                       << filtered_acc_z_ << "\n";
 
-            std::cout << "Filtered Accel x: " << filtered_acc_x_
-                      << ", Accel y: " << filtered_acc_y_
-                      << ", Accel z: " << filtered_acc_z_ << "\n";
+            inc++;
+            std::cout << "Filtered Accel x: " << ros_msg->linear_acceleration.x
+                      << ", Accel y: " << ros_msg->linear_acceleration.y
+                      << ", Accel z: " << ros_msg->linear_acceleration.z << "\n";
         }
     }
 

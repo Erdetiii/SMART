@@ -1,0 +1,12 @@
+[0.057s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target simple_bag_reader_test[0m
+[0.223s] [ 50%] Built target simple_bag_reader
+[0.245s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o[0m
+[4.594s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader_test.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::process_imu_data()[m[K’:
+[4.594s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader_test.cpp:84:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_msg[m[K’ was not declared in this scope
+[4.594s]    84 |                       << [01;31m[Kimu_msg[m[K->linear_acceleration.x << ","
+[4.594s]       |                          [01;31m[K^~~~~~~[m[K
+[5.473s] gmake[2]: *** [CMakeFiles/simple_bag_reader_test.dir/build.make:76: CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o] Error 1
+[5.473s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_bag_reader_test.dir/all] Error 2
+[5.473s] gmake: *** [Makefile:146: all] Error 2
+[5.477s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
