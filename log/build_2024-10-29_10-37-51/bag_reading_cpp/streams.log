@@ -1,0 +1,30 @@
+[0.030s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target imu_filter_node[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target simple_bag_reader_test[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target simple_bag_reader[0m
+[0.123s] [ 16%] [32mBuilding CXX object CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o[0m
+[0.124s] [ 50%] Built target simple_bag_reader_test
+[0.129s] [ 66%] [32mBuilding CXX object CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o[0m
+[1.648s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/imu_filter_node.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::apply_filter(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.648s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/imu_filter_node.cpp:36:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kalpha[m[K’?
+[1.648s]    36 |         filtered_acc_x_ = high_pass_filter(imu_msg->linear_acceleration.x, filtered_acc_x_, [01;31m[Kalpha_[m[K);
+[1.648s]       |                                                                                             [01;31m[K^~~~~~[m[K
+[1.648s]       |                                                                                             [32m[Kalpha[m[K
+[1.648s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/imu_filter_node.cpp:35:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.648s]    35 |         const double [01;35m[Kalpha[m[K = 0.03; // Filter coefficient (0 < alpha < 1)
+[1.648s]       |                      [01;35m[K^~~~~[m[K
+[1.858s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::apply_filter(const SharedPtr&)[m[K’:
+[1.858s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:99:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kalpha[m[K’?
+[1.858s]    99 |        filtered_acc_x_ = high_pass_filter(imu_msg->linear_acceleration.x, filtered_acc_x_, [01;31m[Kalpha_[m[K);
+[1.858s]       |                                                                                            [01;31m[K^~~~~~[m[K
+[1.858s]       |                                                                                            [32m[Kalpha[m[K
+[1.858s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:98:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.858s]    98 |         const double [01;35m[Kalpha[m[K = 0.03; // Filter coefficient (0 < alpha < 1)
+[1.858s]       |                      [01;35m[K^~~~~[m[K
+[2.209s] gmake[2]: *** [CMakeFiles/simple_bag_reader.dir/build.make:76: CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o] Error 1
+[2.209s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/simple_bag_reader.dir/all] Error 2
+[2.210s] gmake[1]: *** Waiting for unfinished jobs....
+[3.260s] gmake[2]: *** [CMakeFiles/imu_filter_node.dir/build.make:76: CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o] Error 1
+[3.260s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/imu_filter_node.dir/all] Error 2
+[3.260s] gmake: *** [Makefile:146: all] Error 2
+[3.263s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16

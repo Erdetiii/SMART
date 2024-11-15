@@ -1,0 +1,67 @@
+[0.045s] Invoking command in '/home/eternal/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/learning_tf2_cpp
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.287s] -- Detecting C compile features - done
+[0.289s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.804s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.877s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.905s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.911s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.923s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.984s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.012s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.014s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.084s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.101s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.135s] -- Looking for pthread.h
+[1.199s] -- Looking for pthread.h - found
+[1.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.266s] -- Found Threads: TRUE  
+[1.305s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.313s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.395s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.410s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.465s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.465s] -- Configured cppcheck include dirs: 
+[1.465s] -- Configured cppcheck exclude dirs and/or files: 
+[1.465s] -- Added test 'lint_cmake' to check CMake code style
+[1.466s] -- Added test 'uncrustify' to check C / C++ code style
+[1.466s] -- Configured uncrustify additional arguments: 
+[1.466s] -- Added test 'xmllint' to check XML markup files
+[1.467s] -- Configuring done
+[1.470s] -- Generating done
+[1.471s] -- Build files have been written to: /home/eternal/ros2_ws/build/learning_tf2_cpp
+[1.478s] Invoked command in '/home/eternal/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eternal/ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/eternal/ros2_ws/install/learning_tf2_cpp
+[1.479s] Invoking command in '/home/eternal/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/learning_tf2_cpp -- -j16 -l16
+[1.512s] Invoked command in '/home/eternal/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/learning_tf2_cpp -- -j16 -l16
+[1.532s] Invoking command in '/home/eternal/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/learning_tf2_cpp
+[1.538s] -- Install configuration: ""
+[1.538s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[1.538s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[1.538s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[1.538s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[1.538s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[1.538s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[1.538s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[1.538s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[1.538s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[1.539s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[1.539s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[1.539s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[1.539s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[1.539s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[1.539s] -- Installing: /home/eternal/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[1.540s] Invoked command in '/home/eternal/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eternal/ros2_ws/build/learning_tf2_cpp

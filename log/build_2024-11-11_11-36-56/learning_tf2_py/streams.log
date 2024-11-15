@@ -1,0 +1,22 @@
+[1.388s] Invoking command in '/home/eternal/ros2_ws/src/learning_tf2_py': PYTHONPATH=/home/eternal/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/eternal/ros2_ws/build/learning_tf2_py/build install --record /home/eternal/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[1.970s] running egg_info
+[2.011s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[2.043s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[2.139s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[2.203s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[2.235s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[2.727s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[2.727s] adding license file 'LICENSE'
+[2.727s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[2.727s] running build
+[2.727s] running build_py
+[2.728s] running install
+[2.732s] running install_lib
+[2.773s] running install_data
+[2.774s] running install_egg_info
+[2.814s] removing '/home/eternal/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.815s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/eternal/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[2.815s] running install_scripts
+[2.898s] Installing static_turtle_tf2_broadcaster script to /home/eternal/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[2.898s] writing list of installed files to '/home/eternal/ros2_ws/build/learning_tf2_py/install.log'
+[2.937s] Invoked command in '/home/eternal/ros2_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/eternal/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eternal/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/eternal/ros2_ws/build/learning_tf2_py/build install --record /home/eternal/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_bag_reader_test[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o[0m

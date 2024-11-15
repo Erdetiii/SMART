@@ -1,5 +1,6 @@
 /home/eternal/ros2_ws/install/bag_reading_cpp/lib/bag_reading_cpp/simple_bag_reader
 /home/eternal/ros2_ws/install/bag_reading_cpp/lib/bag_reading_cpp/simple_bag_reader_test
+/home/eternal/ros2_ws/install/bag_reading_cpp/lib/bag_reading_cpp/imu_filter_node
 /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/package_run_dependencies/bag_reading_cpp
 /home/eternal/ros2_ws/install/bag_reading_cpp/share/ament_index/resource_index/parent_prefix_path/bag_reading_cpp
 /home/eternal/ros2_ws/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.sh

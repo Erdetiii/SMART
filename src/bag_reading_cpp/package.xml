@@ -10,6 +10,7 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
+  <depend>imu_complementary_filter</depend>
   <depend>rosbag2_transport</depend>
   <depend>sensor_msgs</depend>
 

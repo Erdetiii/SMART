@@ -19,10 +19,6 @@ public:
     PlaybackNode(const std::string &bag_filename)
         : Node("playback_node"), filtered_acc_x_(0.0), filtered_acc_y_(0.0), filtered_acc_z_(0.0)
     {
-        publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("/imu/data", 10);
-        timer_ = this->create_wall_timer(
-            0.1ms, std::bind(&PlaybackNode::timer_callback, this));
-
         rosbag2_storage::StorageOptions storage_options;
         storage_options.uri = bag_filename;
         reader_ = rosbag2_transport::ReaderWriterFactory::make_reader(storage_options);
@@ -35,13 +31,13 @@ public:
         reader_->open(storage_options);
 
         // Open CSV file for writing filtered data
-        csv_file_.open("filtered_imu_data.csv");
+        csv_file_.open("imu_data.csv");
         if (!csv_file_.is_open())
         {
             RCLCPP_ERROR(this->get_logger(), "Failed to open CSV file for writing.");
             return;
         }
-        csv_file_ << "Time,Accel_X,Accel_Y,Accel_Z\n"; // Write header
+        csv_file_ << "Seconds,Nanoseconds,Accel_X,Accel_Y,Accel_Z\n"; // Write header
     }
 
     ~PlaybackNode()
@@ -52,62 +48,91 @@ public:
         }
     }
 
-private:
-    void timer_callback()
-    {
-        rosbag2_storage::SerializedBagMessageSharedPtr msg = reader_->read_next();
-
-        if (msg->topic_name != "/imu/data")
-        {
-            return;
-        }
-
-        rclcpp::SerializedMessage serialized_msg(*msg->serialized_data);
-        sensor_msgs::msg::Imu::SharedPtr ros_msg = std::make_shared<sensor_msgs::msg::Imu>();
-        try
-        {
-            serialization_.deserialize_message(&serialized_msg, ros_msg.get());
-        }
-        catch (const std::exception &e)
-        {
-            RCLCPP_ERROR(this->get_logger(), "Deserialization failed: %s", e.what());
-            return;
-        }
-
-        // Apply a simple moving average filter (or any other filtering technique)
-        apply_filter(ros_msg);
-
-        publisher_->publish(*ros_msg);
-
-        // Write filtered data to the CSV file
-        csv_file_ << ros_msg->header.stamp.sec + ros_msg->header.stamp.nanosec / 1e9 << ","
-                  << filtered_acc_x_ << ","
-                  << filtered_acc_y_ << ","
-                  << filtered_acc_z_ << "\n";
-
-        std::cout << "Filtered Accel x: " << filtered_acc_x_
-                  << ", Accel y: " << filtered_acc_y_
-                  << ", Accel z: " << filtered_acc_z_ << "\n";
-
-        return;
+    double high_pass_filter(double new_value, double previous_value, double previous_filtered_value, double alpha) {
+        return alpha * (previous_filtered_value + new_value - previous_value);
     }
 
+    double low_pass_filter(double new_value, double previous_value, double alpha) {
+        return alpha * new_value + (1 - alpha) * previous_value;
+    }
+
+    double band_pass_filter(double new_value, double previous_value, double previous_filtered_value, double low_alpha, double high_alpha) {
+        // Apply a high-pass filter on the input
+        double high_pass_result = high_pass_filter(new_value, previous_value, previous_filtered_value, high_alpha);
+
+        // Apply a low-pass filter on the high-pass result to get the band-pass effect
+        return low_pass_filter(high_pass_result, previous_filtered_value, low_alpha);
+    }
+
+    void process_imu_data()
+    {
+        while (reader_->has_next())
+        {
+            rosbag2_storage::SerializedBagMessageSharedPtr msg = reader_->read_next();
+
+            if (msg->topic_name != "/imu/data")
+            {
+                continue;
+            }
+
+            rclcpp::SerializedMessage serialized_msg(*msg->serialized_data);
+            sensor_msgs::msg::Imu::SharedPtr ros_msg = std::make_shared<sensor_msgs::msg::Imu>();
+            try
+            {
+                serialization_.deserialize_message(&serialized_msg, ros_msg.get());
+            }
+            catch (const std::exception &e)
+            {
+                RCLCPP_ERROR(this->get_logger(), "Deserialization failed: %s", e.what());
+                return;
+            }
+
+            // Apply the filter on the acceleration data
+            apply_filter(ros_msg);
+
+            // Write filtered data to the CSV file
+            csv_file_ << ros_msg->header.stamp.sec << ","
+                      << ros_msg->header.stamp.nanosec << ","
+                      << filtered_acc_x_ << ","
+                      << filtered_acc_y_ << ","
+                      << filtered_acc_z_ << "\n";
+
+            std::cout << "Filtered Accel x: " << ros_msg->linear_acceleration.x
+                      << ", Accel y: " << ros_msg->linear_acceleration.y
+                      << ", Accel z: " << ros_msg->linear_acceleration.z << "\n";
+        }
+    }
+
+private:
     void apply_filter(const sensor_msgs::msg::Imu::SharedPtr &imu_msg)
     {
         // Simple moving average filter (you can modify this as needed)
-        const double alpha = 0.1; // Filter coefficient (0 < alpha < 1)
-        filtered_acc_x_ = alpha * imu_msg->linear_acceleration.x + (1 - alpha) * filtered_acc_x_;
-        filtered_acc_y_ = alpha * imu_msg->linear_acceleration.y + (1 - alpha) * filtered_acc_y_;
-        filtered_acc_z_ = alpha * imu_msg->linear_acceleration.z + (1 - alpha) * filtered_acc_z_;
+        const double low_alpha = 0.1;  // Low-pass filter coefficient
+        const double high_alpha = 0.7; // High-pass filter coefficient
+
+        // Apply High-Pass Filter and store results directly in filtered_acc_x/y/z
+        filtered_acc_x_ = band_pass_filter(imu_msg->linear_acceleration.x, previous_acc_x_, previous_filtered_acc_x_, low_alpha, high_alpha);
+        filtered_acc_y_ = band_pass_filter(imu_msg->linear_acceleration.y, previous_acc_y_, previous_filtered_acc_y_, low_alpha, high_alpha);
+        filtered_acc_z_ = band_pass_filter(imu_msg->linear_acceleration.z, previous_acc_z_, previous_filtered_acc_z_, low_alpha, high_alpha);
+        
+        // Update previous values for next iteration
+        previous_acc_x_ = imu_msg->linear_acceleration.x;
+        previous_acc_y_ = imu_msg->linear_acceleration.y;
+        previous_acc_z_ = imu_msg->linear_acceleration.z;
+
+        previous_filtered_acc_x_ = filtered_acc_x_;
+        previous_filtered_acc_y_ = filtered_acc_y_;
+        previous_filtered_acc_z_ = filtered_acc_z_;
+
     }
 
-    rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr publisher_;
     rclcpp::Serialization<sensor_msgs::msg::Imu> serialization_;
     std::unique_ptr<rosbag2_cpp::Reader> reader_;
     std::ofstream csv_file_; // CSV file for storing filtered data
 
     double filtered_acc_x_, filtered_acc_y_, filtered_acc_z_;
+    double previous_acc_x_ = 0.0, previous_acc_y_ = 0.0, previous_acc_z_ = 0.0;
+    double previous_filtered_acc_x_ = 0.0, previous_filtered_acc_y_ = 0.0, previous_filtered_acc_z_ = 0.0;
 };
 
 int main(int argc, char **argv)
@@ -119,7 +144,8 @@ int main(int argc, char **argv)
     }
 
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<PlaybackNode>(argv[1]));
+    auto node = std::make_shared<PlaybackNode>(argv[1]);
+    node->process_imu_data();
     rclcpp::shutdown();
 
     return 0;

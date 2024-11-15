@@ -1,0 +1,4 @@
+[01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::process_imu_data()[m[K’:
+[01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:77:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   77 |             double [01;35m[Ktime[m[K = ros_msg->header.stamp.sec + ros_msg->header.stamp.nanosec / 1e9;
+      |                    [01;35m[K^~~~[m[K

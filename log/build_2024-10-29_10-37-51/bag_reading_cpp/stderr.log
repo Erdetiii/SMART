@@ -1,0 +1,22 @@
+[01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/imu_filter_node.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::apply_filter(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/imu_filter_node.cpp:36:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kalpha[m[K’?
+   36 |         filtered_acc_x_ = high_pass_filter(imu_msg->linear_acceleration.x, filtered_acc_x_, [01;31m[Kalpha_[m[K);
+      |                                                                                             [01;31m[K^~~~~~[m[K
+      |                                                                                             [32m[Kalpha[m[K
+[01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/imu_filter_node.cpp:35:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   35 |         const double [01;35m[Kalpha[m[K = 0.03; // Filter coefficient (0 < alpha < 1)
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::apply_filter(const SharedPtr&)[m[K’:
+[01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:99:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kalpha[m[K’?
+   99 |        filtered_acc_x_ = high_pass_filter(imu_msg->linear_acceleration.x, filtered_acc_x_, [01;31m[Kalpha_[m[K);
+      |                                                                                            [01;31m[K^~~~~~[m[K
+      |                                                                                            [32m[Kalpha[m[K
+[01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:98:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   98 |         const double [01;35m[Kalpha[m[K = 0.03; // Filter coefficient (0 < alpha < 1)
+      |                      [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_bag_reader.dir/build.make:76: CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/simple_bag_reader.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/imu_filter_node.dir/build.make:76: CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/imu_filter_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

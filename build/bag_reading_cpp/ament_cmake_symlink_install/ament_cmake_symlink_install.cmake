@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "simple_bag_reader" "simple_bag_reader_test" "DESTINATION" "lib/bag_reading_cpp")
+# install("TARGETS" "simple_bag_reader" "simple_bag_reader_test" "imu_filter_node" "DESTINATION" "lib/bag_reading_cpp")
 include("/home/eternal/ros2_ws/build/bag_reading_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/eternal/ros2_ws/build/bag_reading_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bag_reading_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

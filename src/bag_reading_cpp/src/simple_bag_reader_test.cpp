@@ -37,7 +37,7 @@ public:
             RCLCPP_ERROR(this->get_logger(), "Failed to open CSV file for writing.");
             return;
         }
-        csv_file_ << "Time,Accel_X,Accel_Y,Accel_Z\n"; // Write header
+        csv_file_ << "Seconds,Nanoseconds,Accel_X,Accel_Y,Accel_Z\n"; // Write header
     }
 
     ~PlaybackNode()
@@ -47,6 +47,41 @@ public:
             csv_file_.close(); // Close the CSV file when done
         }
     }
+
+    double low_pass_filter(double new_value, double previous_value, double alpha) {
+        return alpha * new_value + (1 - alpha) * previous_value;
+    }
+
+    double complementary_filter(double new_value, double previous_value, double alpha) {
+        return alpha * (previous_value + new_value) + (1 - alpha) * previous_value;
+    }
+
+    double high_pass_filter(double new_value, double previous_value, double previous_filtered_value, double alpha) {
+        return alpha * (previous_filtered_value + new_value - previous_value);
+    }
+
+    double band_pass_filter(double new_value, double previous_value, double previous_filtered_value, double low_alpha, double high_alpha) {
+        // Apply a high-pass filter on the input
+        double high_pass_result = high_pass_filter(new_value, previous_value, previous_filtered_value, high_alpha);
+
+        // Apply a low-pass filter on the high-pass result to get the band-pass effect
+        return low_pass_filter(high_pass_result, previous_filtered_value, low_alpha);
+    }
+
+    double double_exponential_smoothing(double new_value, double& prev_value, double& trend, double alpha, double beta) {
+        double new_trend = beta * (new_value - prev_value) + (1 - beta) * trend;
+        double smoothed_value = alpha * new_value + (1 - alpha) * (prev_value + trend);
+        prev_value = smoothed_value;
+        trend = new_trend;
+        return smoothed_value;
+    }
+
+    double gradient_filter(double new_value, double previous_value, double gradient_alpha) {
+        return previous_value + gradient_alpha * (new_value - previous_value);
+    }
+
+
+
 
     void process_imu_data()
     {
@@ -76,7 +111,8 @@ public:
             apply_filter(ros_msg);
 
             // Write filtered data to the CSV file
-            csv_file_ << inc << ","
+            csv_file_ << ros_msg->header.stamp.sec << ","
+                      << ros_msg->header.stamp.nanosec << ","
                       << filtered_acc_x_ << ","
                       << filtered_acc_y_ << ","
                       << filtered_acc_z_ << "\n";
@@ -91,18 +127,31 @@ public:
 private:
     void apply_filter(const sensor_msgs::msg::Imu::SharedPtr &imu_msg)
     {
-        // Simple moving average filter (you can modify this as needed)
-        const double alpha = 0.1; // Filter coefficient (0 < alpha < 1)
-        filtered_acc_x_ = alpha * imu_msg->linear_acceleration.x + (1 - alpha) * filtered_acc_x_;
-        filtered_acc_y_ = alpha * imu_msg->linear_acceleration.y + (1 - alpha) * filtered_acc_y_;
-        filtered_acc_z_ = alpha * imu_msg->linear_acceleration.z + (1 - alpha) * filtered_acc_z_;
+        const double low_alpha = 0.1;  // Low-pass filter coefficient
+        const double high_alpha = 0.7; // High-pass filter coefficient
+
+        // Apply Band-Pass Filter and store results directly in filtered_acc_x/y/z
+        filtered_acc_x_ = band_pass_filter(imu_msg->linear_acceleration.x, previous_acc_x_, previous_filtered_acc_x_, low_alpha, high_alpha);
+        filtered_acc_y_ = band_pass_filter(imu_msg->linear_acceleration.y, previous_acc_x_, previous_filtered_acc_x_, low_alpha, high_alpha);
+        filtered_acc_z_ = band_pass_filter(imu_msg->linear_acceleration.z, previous_acc_x_, previous_filtered_acc_x_, low_alpha, high_alpha);
+
+        // Update previous values for next iteration
+        previous_acc_x_ = imu_msg->linear_acceleration.x;
+        previous_acc_y_ = imu_msg->linear_acceleration.y;
+        previous_acc_z_ = imu_msg->linear_acceleration.z;
+
+        previous_filtered_acc_x_ = filtered_acc_x_;
+        previous_filtered_acc_y_ = filtered_acc_y_;
+        previous_filtered_acc_z_ = filtered_acc_z_;
     }
 
     rclcpp::Serialization<sensor_msgs::msg::Imu> serialization_;
     std::unique_ptr<rosbag2_cpp::Reader> reader_;
     std::ofstream csv_file_; // CSV file for storing filtered data
 
-    double filtered_acc_x_, filtered_acc_y_, filtered_acc_z_;
+    double filtered_acc_x_= 0.0, filtered_acc_y_= 0.0, filtered_acc_z_= 0.0;
+    double previous_acc_x_ = 0.0, previous_acc_y_ = 0.0, previous_acc_z_ = 0.0;
+    double previous_filtered_acc_x_ = 0.0, previous_filtered_acc_y_ = 0.0, previous_filtered_acc_z_ = 0.0;
 };
 
 int main(int argc, char **argv)

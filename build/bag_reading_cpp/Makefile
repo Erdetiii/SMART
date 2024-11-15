@@ -223,6 +223,43 @@ simple_bag_reader_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_bag_reader_test.dir/build.make CMakeFiles/simple_bag_reader_test.dir/build
 .PHONY : simple_bag_reader_test/fast
 
+#=============================================================================
+# Target rules for targets named imu_filter_node
+
+# Build rule for target.
+imu_filter_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_filter_node
+.PHONY : imu_filter_node
+
+# fast build rule for target.
+imu_filter_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_filter_node.dir/build.make CMakeFiles/imu_filter_node.dir/build
+.PHONY : imu_filter_node/fast
+
+src/imu_filter_node.o: src/imu_filter_node.cpp.o
+.PHONY : src/imu_filter_node.o
+
+# target to build an object file
+src/imu_filter_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_filter_node.dir/build.make CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o
+.PHONY : src/imu_filter_node.cpp.o
+
+src/imu_filter_node.i: src/imu_filter_node.cpp.i
+.PHONY : src/imu_filter_node.i
+
+# target to preprocess a source file
+src/imu_filter_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_filter_node.dir/build.make CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.i
+.PHONY : src/imu_filter_node.cpp.i
+
+src/imu_filter_node.s: src/imu_filter_node.cpp.s
+.PHONY : src/imu_filter_node.s
+
+# target to generate assembly for a file
+src/imu_filter_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_filter_node.dir/build.make CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.s
+.PHONY : src/imu_filter_node.cpp.s
+
 src/simple_bag_reader.o: src/simple_bag_reader.cpp.o
 .PHONY : src/simple_bag_reader.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... bag_reading_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... imu_filter_node"
 	@echo "... simple_bag_reader"
 	@echo "... simple_bag_reader_test"
+	@echo "... src/imu_filter_node.o"
+	@echo "... src/imu_filter_node.i"
+	@echo "... src/imu_filter_node.s"
 	@echo "... src/simple_bag_reader.o"
 	@echo "... src/simple_bag_reader.i"
 	@echo "... src/simple_bag_reader.s"

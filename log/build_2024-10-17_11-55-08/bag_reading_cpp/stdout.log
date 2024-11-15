@@ -1,0 +1,3 @@
+[ 33%] Built target simple_bag_reader
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_filter_accel_node.dir/src/imu_filter_accel_node.cpp.o[0m
+[ 83%] Built target simple_bag_reader_test

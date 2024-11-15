@@ -1,0 +1,35 @@
+[0.019s] Invoking command in '/home/eternal/ros2_ws/build/bag_reading_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target simple_bag_reader_test[0m
+[0.098s] [ 16%] [32mBuilding CXX object CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o[0m
+[0.102s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o[0m
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o[0m
+[1.699s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/imu_filter_node.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::apply_filter(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.700s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/imu_filter_node.cpp:36:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kalpha[m[K’?
+[1.700s]    36 |         filtered_acc_x_ = high_pass_filter(imu_msg->linear_acceleration.x, filtered_acc_x_, [01;31m[Kalpha_[m[K);
+[1.700s]       |                                                                                             [01;31m[K^~~~~~[m[K
+[1.700s]       |                                                                                             [32m[Kalpha[m[K
+[1.700s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/imu_filter_node.cpp:35:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.700s]    35 |         const double [01;35m[Kalpha[m[K = 0.03; // Filter coefficient (0 < alpha < 1)
+[1.700s]       |                      [01;35m[K^~~~~[m[K
+[1.862s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader_test.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::apply_filter(const SharedPtr&)[m[K’:
+[1.863s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader_test.cpp:129:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kisalpha_l[m[K’?
+[1.863s]   129 |         filtered_acc_x_ = high_pass_filter(imu_msg->linear_acceleration.x, filtered_acc_x_, [01;31m[Kalpha_[m[K);
+[1.863s]       |                                                                                             [01;31m[K^~~~~~[m[K
+[1.863s]       |                                                                                             [32m[Kisalpha_l[m[K
+[1.890s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::apply_filter(const SharedPtr&)[m[K’:
+[1.890s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:99:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha_[m[K’ was not declared in this scope; did you mean ‘[01m[Kalpha[m[K’?
+[1.890s]    99 |        filtered_acc_x_ = high_pass_filter(imu_msg->linear_acceleration.x, filtered_acc_x_, [01;31m[Kalpha_[m[K);
+[1.890s]       |                                                                                            [01;31m[K^~~~~~[m[K
+[1.890s]       |                                                                                            [32m[Kalpha[m[K
+[1.890s] [01m[K/home/eternal/ros2_ws/src/bag_reading_cpp/src/simple_bag_reader.cpp:98:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.890s]    98 |         const double [01;35m[Kalpha[m[K = 0.03; // Filter coefficient (0 < alpha < 1)
+[1.890s]       |                      [01;35m[K^~~~~[m[K
+[2.218s] gmake[2]: *** [CMakeFiles/simple_bag_reader_test.dir/build.make:76: CMakeFiles/simple_bag_reader_test.dir/src/simple_bag_reader_test.cpp.o] Error 1
+[2.218s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/simple_bag_reader_test.dir/all] Error 2
+[2.218s] gmake[1]: *** Waiting for unfinished jobs....
+[2.250s] gmake[2]: *** [CMakeFiles/simple_bag_reader.dir/build.make:76: CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o] Error 1
+[2.250s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/simple_bag_reader.dir/all] Error 2
+[3.319s] gmake[2]: *** [CMakeFiles/imu_filter_node.dir/build.make:76: CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o] Error 1
+[3.319s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/imu_filter_node.dir/all] Error 2
+[3.319s] gmake: *** [Makefile:146: all] Error 2
+[3.321s] Invoked command in '/home/eternal/ros2_ws/build/bag_reading_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eternal/ros2_ws/install/python_parameters:/home/eternal/ros2_ws/install/py_srvcli:/home/eternal/ros2_ws/install/py_pubsub:/home/eternal/ros2_ws/install/py_launch_example:/home/eternal/ros2_ws/install/launch_tutorial:/home/eternal/ros2_ws/install/imu_filter_pkg:/opt/ros/humble /usr/bin/cmake --build /home/eternal/ros2_ws/build/bag_reading_cpp -- -j16 -l16
